@@ -1,0 +1,225 @@
+@media (max-width: 1023px) {
+    .menu-desktop {
+    display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    header nav.heading {
+        background-color: transparent;
+
+        padding: 6rem 0 0 8rem;
+    }
+
+    header nav.heading > .btn-menu,
+    header .divider,
+    header .menu-mobile .menu-itens-mobile {
+        display: none;
+    }
+
+/* *************** SECTION HERO *************** */
+    section.hero {
+        display: flex;
+        margin-left: 6.2rem;
+        height: 50rem;
+    }
+
+    section .hero-texts {
+        max-width: 48rem;
+    }
+
+    section .users-box {
+        margin: 7rem 2rem;
+    }
+
+    section .users-box > p {
+        margin-left: 10rem;
+        padding-top: 0;
+        font-size: 1.6rem;
+        line-height: 3.4rem;
+    }
+
+    section .hero-subtitle {
+        display: inline-block;
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+        color: var(--fc-primary);
+        max-width: 40.8rem;
+        margin: 0 2rem 12rem;
+    }
+
+    section .card .btn-menu {
+        background-color: var(--fc-primary);
+        border-radius: 0.8rem;
+        height: 5.2rem;
+        min-width: 5.2rem;
+        display: grid;
+        place-content: center;
+        position: absolute;
+        top: 5rem;
+        left: 5rem;
+        z-index: 2;
+    }
+
+    .card .btn-menu span {
+        min-width: 5.2rem;
+    }
+
+    .card .btn-menu span > img {
+        height: 3.2rem;
+        min-width: 5.2rem;
+        position: initial;
+    }
+
+    /* *************** SECTION HERO - CARDS*************** */
+    .cards {
+        display: grid;
+        grid-template-areas: 
+        'A B'
+        'C B'
+        'D E';
+        position: absolute;
+        right: 0;
+        top: 3rem;
+        z-index: 0;
+    }
+
+    .cards :nth-child(4).layout-card,
+    .cards :nth-child(5).layout-card {
+        display: block;
+    }
+
+    .cards :nth-child(1).layout-card {
+        grid-area: B;
+        height: 100%;
+        min-width: 8rem;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .cards :nth-child(2) {
+        grid-area: A;
+    }
+
+    .cards > :nth-child(3) {
+        grid-area: C;
+        height: 15.2rem;
+    }
+
+    .cards > :nth-child(4) {
+        grid-area: D;
+        border-radius: 2rem 2rem 0 0;
+    }
+
+    .cards > :nth-child(5) {
+        grid-area: E;
+        min-width: 8rem;
+        border-radius: 2rem 0 0 0;
+    }
+
+    .cards .card {
+        min-width: 39rem;
+        height: 34rem;
+        display: block;
+    }
+
+    .cards .card > img {
+        height: 85%;
+        right: 16%;
+        bottom: 0;
+    }
+
+    .card .pets {
+        position: relative;
+    }
+
+    .cards .card > a {
+        bottom: -13rem;
+        left: 5rem;
+        right: 5rem;
+        height: 7.2rem;
+        font-weight: 800;
+        font-size: 2rem;
+        line-height: 3.4rem;
+        text-align: center;
+        border-radius: 2rem;
+    }
+
+    .cards .card .menu-desktop {
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .cards .card .menu-itens-desktop {
+        width: 39rem;
+        height: 34rem;
+        padding: 15rem 5rem 5rem 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+        background-color: var(--bg-primary-dark);
+        border-radius: 2rem;
+    }
+
+    .cards .card .menu-itens-desktop > li a {
+        font-size: 2rem; 
+        line-height: 110%;        
+        font-weight: 700;
+        color: var(--fc-primary);
+        opacity: 0.5;
+    }
+    
+    .card .menu-itens-desktop li a:hover {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1300px) {
+/* *************** HEADER *************** */
+    header nav.heading{
+        padding: 9rem 0 0 11.2rem;
+        max-width: 58.2rem;
+    }
+
+    header nav.heading > a > img {
+        height: 4.6rem;
+    }
+
+/* *************** SECTION HERO *************** */
+    section.hero {
+        margin-left: 9.2rem;
+        height: 72rem;
+    }
+
+    section .hero-texts {
+        min-width: 52rem;
+    }
+
+    section .hero-title {
+        font-size: 7.2rem;
+        line-height: 8rem;
+        max-width: 52rem;
+    }
+
+    section .card .btn-menu {
+        height: 7.2rem;
+        width: 7.2rem;
+    }
+
+/* *************** SECTION HERO - CARDS*************** */
+    .cards .card {
+        min-width: 59rem;
+        height: 54rem;
+    }
+
+    .cards .card .menu-itens-desktop {
+        width: 59rem;
+        height: 54rem;
+        padding: 24rem 5rem 5rem 5rem;
+        gap: 1.6rem;
+    }
+
+    .cards .card .menu-itens-desktop > li a {
+        font-size: 3.6rem;
+    }
+}

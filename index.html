@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find A Friend</title>
+
+    <link rel="shortcut icon" href="assets/images/icon-favicon.svg" >
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
+</head>
+<body>
+    <header>
+        <nav class="heading">
+            <a href="#">
+                <img src="assets/images/icon-logo.svg" alt="Logotipo da Startup FindAFriend">
+            </a>
+
+            <div class="btn-menu" onclick="clickMenu()">
+                <span href="#" class="menu-open">
+                    <img src="assets/images/icon-open-menu.svg" alt="Icone de abrir o Menu">
+                </span>
+                <span href="#" class="menu-closed element-hidden">
+                    <img src="assets/images/icon-closed-menu.svg" alt="Icone de fechar o Menu">
+                </span>
+            </div>
+        </nav>
+
+        <div class="divider element-hidden"></div>
+
+        <div class="menu-mobile element-hidden">
+            <ul class="menu-itens-mobile">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre o app</a></li>
+                <li><a href="#">Animais disponíveis</a></li>
+                <li><a href="#">Sobre a FindAFriend</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-texts">
+            <div class="users-box">
+                <div class="avatars">
+                    <img src="assets/images/avatar.svg" alt="Foto do avatar do usuário">
+                    <img src="assets/images/avatar-2.svg" alt="Foto do avatar do usuário">
+                    <img src="assets/images/avatar-3.svg" alt="Foto do avatar do usuário">
+                    <img src="assets/images/avatar-1.svg" alt="Foto do avatar do usuário">
+                </div>
+                <p><span>324 amigos</span> na sua cidade</p>
+            </div>
+    
+            <h1 class="hero-title">Leve a felicidade para o seu lar</h1>
+    
+            <p class="hero-subtitle">Encontre o animal de estimação ideal para seu estilo de vida!</p>
+        </div>
+
+        <div class="cards">
+            <div class="layout-card"></div>
+            <div class="card">
+                <div class="menu-desktop element-hidden">
+                    <ul class="menu-itens-desktop">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre o app</a></li>
+                        <li><a href="#">Animais disponíveis</a></li>
+                        <li><a href="#">Sobre a FindAFriend</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="btn-menu" onclick="clickMenu()">
+                    <span class="menu-open">
+                        <img src="assets/images/icon-open-menu.svg" alt="Icone de abrir o Menu">
+                    </span>
+                    <span class="menu-closed element-hidden">
+                        <img src="assets/images/icon-closed-menu.svg" alt="Icone de fechar o Menu">
+                    </span>
+                </div>
+                <img src="assets/images/dog.png" alt="Cachorro caramelo">
+                <a href="#">Acesse agora</a>
+            </div>
+            <div class="layout-card"></div>
+            <div class="layout-card"></div>
+            <div class="layout-card"></div>
+        </div>
+    </section>
+
+    <!-- MAIN.JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

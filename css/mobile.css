@@ -1,0 +1,164 @@
+/* *************** HEADER *************** */
+header nav.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--bg-primary-dark);
+    padding: 2rem;
+}
+
+header nav.heading > .btn-menu {
+    background-color: var(--fc-primary);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.8rem;
+    
+    display: grid;
+    place-content: center;
+}
+
+header .divider {
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.2;
+    margin: 0 2rem;
+}
+
+header .menu-mobile .menu-itens-mobile {
+    background-color: var(--bg-primary-dark);
+    padding: 2.8rem 2rem;
+    border-radius: 0 0 20px 20px;
+    width: 100vw;
+    
+    display: grid;
+    gap: 1.2rem;
+    position: absolute;
+    z-index: 10;
+}
+
+.menu-itens-mobile > li a{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 110%;
+    color: var(--fc-primary);
+    opacity: 0.5;
+}
+
+.menu-itens-mobile li a:hover {
+    opacity: 1;
+}
+
+/* *************** SECTION *************** */
+
+section {
+    margin-bottom: 4.8rem;
+}
+
+.users-box {
+    margin: 5.2rem 2rem 3.5rem;
+}
+
+.users-box .avatars {
+    position: relative;
+}
+
+.avatars img {
+    position: absolute;
+}
+
+.avatars :nth-child(2) {
+    left: 2rem;
+    z-index: 2;
+}
+
+.avatars :nth-child(3) {
+    left: 4rem;
+    z-index: 3;
+}
+
+.avatars :nth-child(4) {
+    left: 6rem;
+    z-index: 4;
+}
+
+.users-box > p{
+    padding-top: 3.4rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--fc-primary);
+    line-height: 1.7rem;
+}
+
+.users-box p > span {
+    font-weight: 800;
+}
+
+section .hero-title {
+    color: var(--fc-primary);
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 4.8rem;
+    /* max-width: 26.8rem; */
+    letter-spacing: -0.02em;
+    margin: 0 2rem 5.5rem;
+}
+
+section .hero-subtitle {
+    display: none;
+}
+
+/* *************** SECTION CARDS - CARD *************** */
+.cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    overflow-x: clip;
+}
+
+.cards :nth-child(4).layout-card,
+.cards :nth-child(5).layout-card {
+    display: none;
+}
+
+.layout-card {
+    min-width: 28rem;
+    height: 25.5rem;
+    border-radius: 20px;
+    background-color: var(--bg-primary-dark);
+}
+
+.card {
+    position: relative;
+    display: grid;
+    justify-content: center;
+
+    min-width: 28rem;
+    height: 25.5rem;
+    border-radius: 20px;
+    background: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
+}
+
+.card img{
+    position: absolute;
+    bottom: 0;
+}
+
+.card > a {
+    color: var(--fc-secondary);
+    font-weight: 800;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+
+    background-color: var(--fc-primary);
+    border-radius: 2rem;
+    height: 5.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+}

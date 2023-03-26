@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-font-smothing: antialiased;
+    --moz-osx-font-smothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+
+    --bg-primary: hsla(358, 85%, 63%, 1);
+    --bg-primary-dark: hsla(358, 75%, 58%, 1);
+    --fc-primary: hsla(0, 0%, 100%, 1);
+    --fc-secondary: hsla(209, 77%, 23%, 1);
+}
+
+body {
+    background-color: var(--bg-primary);
+    height: 100vh;
+}
+
+li,
+a,
+span {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 0;
+}
+
+.element-hidden {
+    display: none;
+}
