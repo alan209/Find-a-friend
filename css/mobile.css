@@ -48,7 +48,7 @@ header .menu-mobile .menu-itens-mobile {
     opacity: 1;
 }
 
-/* *************** SECTION *************** */
+/* *************** SECTION HERO *************** */
 
 section {
     margin-bottom: 4.8rem;
@@ -161,4 +161,83 @@ section .hero-subtitle {
     bottom: 2rem;
     left: 2rem;
     right: 2rem;
+}
+
+/* *************** SECTION INFO APP *************** */
+section#info-app {
+    background-color: var(--fc-primary);
+    padding: 7rem 0;
+    position: relative;
+
+    display: flex;
+    gap: 3.6rem;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+section .image-app {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section .background-box-image {
+    background: linear-gradient(180deg, #FDECED 0%, rgba(253, 236, 237, 0) 100%);
+    opacity: 0.5;
+    height: 28rem;
+    width: 100%;
+    position: absolute;
+}
+
+section .image-app img {
+    position: relative;
+}
+
+section .info-app {
+    margin: 0 2rem;
+}
+
+section .info-app-title h1 {
+    font-size: 3rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: var(--fc-secondary);
+    margin-bottom: 2rem;
+}
+
+section .info-app-cards {
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+}
+
+section .info-app-card {
+    background: hsla(356, 81%, 96%, 1);
+    border: 1px solid rgba(241, 81, 86, 0.3);
+    border-radius: 2rem;
+    padding: 3rem;
+
+    display: grid;
+    gap: 3rem;
+    max-width: 32rem;
+    height: 19rem;
+}
+
+section .info-app-card > span {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+section .info-app-card > p {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    width: 22.3rem;
+}
+
+section .info-app-card > p > span {
+    font-weight: 700;
 }
