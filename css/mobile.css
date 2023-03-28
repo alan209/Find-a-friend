@@ -164,7 +164,7 @@ section .hero-subtitle {
 }
 
 /* *************** SECTION INFO APP *************** */
-section#info-app {
+section#about {
     background-color: var(--fc-primary);
     padding: 7rem 0;
     position: relative;
@@ -196,6 +196,11 @@ section .image-app img {
     position: relative;
 }
 
+section > .image-app > :nth-child(3),
+section > .image-app > :nth-child(4) {
+    display: none;
+}
+
 section .info-app {
     margin: 0 2rem;
 }
@@ -223,7 +228,7 @@ section .info-app-card {
     display: grid;
     gap: 3rem;
     max-width: 32rem;
-    height: 19rem;
+    min-height: 19rem;
 }
 
 section .info-app-card > span {
@@ -235,7 +240,7 @@ section .info-app-card > p {
     font-size: 1.4rem;
     line-height: 1.5rem;
     font-weight: 400;
-    width: 22.3rem;
+    max-width: 22.3rem;
 }
 
 section .info-app-card > p > span {
