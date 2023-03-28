@@ -5,16 +5,34 @@
 }
 
 @media (min-width: 1024px) {
+    header {
+        display: flex;
+        align-items: center;
+        padding: 4rem 6.2rem 10rem;
+    }
+
     header nav.heading {
         background-color: transparent;
-
-        padding: 6rem 0 0 8rem;
+        /* padding: 6rem 0 0 8rem; */
     }
 
     header nav.heading > .btn-menu,
-    header .divider,
-    header .menu-mobile .menu-itens-mobile {
+    header .divider {
         display: none;
+    }
+
+    header > .menu-mobile > .menu-itens-mobile,
+    .element-hidden {
+        display: flex;
+        justify-content: flex-end;
+        gap: 4.2rem;
+        position: relative;
+        width: 100%;
+    }
+
+    header .menu-mobile .menu-itens-mobile {
+        background-color: transparent;
+        padding: 0;
     }
 
 /* *************** SECTION HERO *************** */
@@ -29,7 +47,7 @@
     }
 
     section .users-box {
-        margin: 7rem 2rem;
+        margin: 0 2rem 7rem;
     }
 
     section .users-box > p {
@@ -80,7 +98,7 @@
         'D E';
         position: absolute;
         right: 0;
-        top: 3rem;
+        /* top: 3rem; */
         z-index: 0;
     }
 
@@ -102,7 +120,7 @@
 
     .cards > :nth-child(3) {
         grid-area: C;
-        height: 15.2rem;
+        height: 11.2rem;
     }
 
     .cards > :nth-child(4) {
@@ -123,8 +141,8 @@
     }
 
     .cards .card > img {
-        height: 85%;
-        right: 16%;
+        height: 36rem;
+        right: 12%;
         bottom: 0;
     }
 
@@ -133,10 +151,10 @@
     }
 
     .cards .card > a {
-        bottom: -13rem;
-        left: 5rem;
-        right: 5rem;
-        height: 7.2rem;
+        bottom: -10rem;
+        left: 7rem;
+        right: 7rem;
+        height: 5.2rem;
         font-weight: 800;
         font-size: 2rem;
         line-height: 3.4rem;
@@ -179,6 +197,7 @@
         gap: 5.5rem;
         justify-content: space-between;
         padding-left: 2.5rem;
+        transition: 0.7s;
     }
 
     section .image-app {
@@ -260,13 +279,21 @@
 
 @media (min-width: 1300px) {
 /* *************** HEADER *************** */
+    header {
+        padding: 4rem 11.2rem 10rem;
+    }
+
     header nav.heading{
-        padding: 9rem 0 0 11.2rem;
+        padding: 0;
         max-width: 58.2rem;
     }
 
     header nav.heading > a > img {
         height: 4.6rem;
+    }
+
+    header > .menu-mobile > .menu-itens-mobile {
+        gap: 6.2rem;
     }
 
 /* *************** SECTION HERO *************** */
@@ -293,7 +320,7 @@
 /* *************** SECTION HERO - CARDS*************** */
     .cards .card {
         min-width: 59rem;
-        height: 54rem;
+        height: 38.6rem;
     }
 
     .cards .card .menu-itens-desktop {
@@ -305,6 +332,24 @@
 
     .cards .card .menu-itens-desktop > li a {
         font-size: 3.6rem;
+    }
+
+    .cards .card > img {
+        height: 41rem;
+        right: 20%;
+        bottom: 0;
+    }
+    
+    .cards .card > a {
+        bottom: -13rem;
+        left: 5rem;
+        right: 5rem;
+        height: 7.2rem;
+    }
+
+    .cards > :nth-child(3) {
+        grid-area: C;
+        height: 15.2rem;
     }
 
 /* *************** SECTON INFO APP *************** */

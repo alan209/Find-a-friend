@@ -6,6 +6,10 @@
     --moz-osx-font-smothing: grayscale;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     font-size: 62.5%;
     font-family: 'Nunito', sans-serif;
