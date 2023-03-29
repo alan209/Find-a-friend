@@ -80,6 +80,17 @@ Além de uma alteração do projeto inicial na seção “um app não, uma caixi
 
 Na sprint da semana fazer essa mudança no menu e também entregar a segunda seção do site.
 
+## 🚀 Sprint 03:
+
+🗓️ Data de início: 28/03/2023
+🗓️ Data da entrega: 03/04/2023
+
+### 📖 História
+
+Após criada a primeira e a segunda seções do site do FindAFriend, uma nova área com informações sobre alguns animais disponíveis por lá será incluida. Essa nova área tem várias fotos de animais disponíveis para adoção, num componente de slide / carrossel.
+
+Na sprint da semana precisa-se desenvolver a Seção “Há muitos amigos esperando por você!” para mobile e desktop. Slider com 3 fotos de animais, com setas indicativas de direção. O Slider deve rodar a partir da ação do usuário e também em um intervalo de tempo de 20 segundos entre as fotos.
+
 ### 🔗 Link do Figma
 
 O projeto da landing page está disponível <a href="https://www.figma.com/community/file/1219640728562616972/GCC-%231---FindAFriend" target="_blank">aqui</a>.
