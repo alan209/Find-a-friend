@@ -16,3 +16,27 @@ function clickMenu() {
     menuClosedDesktop.classList.toggle('element-hidden');
     divider.classList.toggle('element-hidden');
 }
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    mousewheel: true,
+    keyboard: true,
+    
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });

@@ -16,8 +16,10 @@ html {
 
     --bg-primary: hsla(358, 85%, 63%, 1);
     --bg-primary-dark: hsla(358, 75%, 58%, 1);
+
     --fc-primary: hsla(0, 0%, 100%, 1);
     --fc-secondary: hsla(209, 77%, 23%, 1);
+    --fc-title-section-pets: hsla(47, 87%, 66%, 1);
 }
 
 body {
