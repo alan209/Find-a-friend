@@ -1,10 +1,14 @@
-@media (max-width: 1023px) {
+@media (max-width: 1023px) {    
     .menu-desktop {
     display: none;
     }
 }
 
 @media (min-width: 1024px) {
+    :root {
+        --swiper-navigation-size: 60px;
+    }
+
     header {
         display: flex;
         align-items: center;
@@ -275,6 +279,92 @@
     section .info-app-card > p {
         max-width: 47rem;
     }
+
+    /* *************** SECTON PETS *************** */
+    section#pets {
+        padding: 2rem 10rem 5rem;
+    }
+
+    section .container-pets {
+        padding: 10rem 5.5rem 6rem;
+        min-height: 62.8rem;
+    }
+
+    section .container-pets .texts-pets {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+
+    section .container-pets .texts-pets h1 {
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 90%;
+    }
+
+    section .container-pets .texts-pets p {
+        font-size: 2rem;
+    }
+
+    section .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section .container .link {
+        width: 20rem;
+    }
+
+    section .container .swiper {
+        overflow: hidden;
+        margin: 0;
+    }
+
+    section .container .swiper .swiper-wrapper {
+        width: 38.4rem;
+        height: 26.1rem;
+        padding: 0 10.5rem 2.5rem;
+        margin: 0;
+        gap: 0;
+    }
+
+    .swiper-slide > img,
+    .swiper-slide > h1 {
+        width: 34rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: flex;
+        width: 7.2rem;
+        height: 7.2rem;
+        border: 1px solid hsla(0, 0%, 100%, 1);
+        border-radius: 2rem;
+        color: black;
+        background-color: var(--fc-primary);
+    }
+    
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 2.4rem;
+    }
+    
+    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+        color: var(--fc-primary);
+        background-color: transparent;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 0.5rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--fc-primary);
+    }
 }
 
 @media (min-width: 1300px) {
@@ -363,4 +453,18 @@
         width: 65rem;
         height: 78rem;
     }
+/* *************** SECTON PETS *************** */
+    section .container-pets {
+        padding: 10rem 10.5rem 6rem;
+    }
+    
+    section .container .link {
+        width: 23rem;
+    }
+
+    .swiper-slide > img,
+    .swiper-slide > h1 {
+        width: 38rem;
+    }
+
 }
