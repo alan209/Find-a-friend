@@ -91,6 +91,17 @@ Após criada a primeira e a segunda seções do site do FindAFriend, uma nova á
 
 Na sprint da semana precisa-se desenvolver a Seção “Há muitos amigos esperando por você!” para mobile e desktop. Slider com 3 fotos de animais, com setas indicativas de direção. O Slider deve rodar a partir da ação do usuário e também em um intervalo de tempo de 20 segundos entre as fotos.
 
+## 🚀 Sprint 04:
+
+🗓️ Data de início: 04/04/2023
+🗓️ Data da entrega: 11/04/2023
+
+### 📖 História
+
+Essa última entrega será a mais importante: a partir dela será publicada a Landing Page da FindAFriend e finalmente começar a divulgação da aplicação da startup! As últimas áreas a serem desenvolvidas nessa LP são sobre e contato, e também fazer o deploy para o ambiente de produção.
+
+Nessa sprint precisa-se desenvolver, áreas Sobre e Contato para mobile e para destop. A área sobre tem cards com os diretores da FindAFriend. Na sua versão mobile esses cards são um slider movimentado pelo toque. É necessário ter um link para o email nossomos@findafriend.com, onde que a pessoa clica e já abre uma janela do leitor de emails dela com o endereço do destinatário preenchido e o assunto “Visitei sua página e preciso de mais informações”. E por fim Deploy do projeto completo".
+
 ### 🔗 Link do Figma
 
 O projeto da landing page está disponível <a href="https://www.figma.com/community/file/1219640728562616972/GCC-%231---FindAFriend" target="_blank">aqui</a>.
