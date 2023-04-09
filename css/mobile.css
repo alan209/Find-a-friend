@@ -255,10 +255,10 @@ section#pets {
     background-color: var(--fc-primary);
     padding: 2rem;
     overflow: hidden;
-    height: 68rem;
+    min-height: 68rem;
 }
 
-section .container-pets {
+section#pets .container-pets {
     width: 100%;
     min-height: 66.5rem;
     background-color: var(--bg-primary);
@@ -266,13 +266,13 @@ section .container-pets {
     padding: 6rem 3.2rem;
 }
 
-section .container-pets .texts-pets {
+section#pets .container-pets .texts-pets {
     display: grid;
     gap: 4rem;
     margin-bottom: 2rem;
 }
 
-section .container-pets .texts-pets h1 {
+section#pets .container-pets .texts-pets h1 {
     font-weight: 700;
     font-size: 3rem;
     line-height: 90%;
@@ -281,7 +281,7 @@ section .container-pets .texts-pets h1 {
     width: 100%;
 }
 
-section .container-pets .texts-pets p {
+section#pets .container-pets .texts-pets p {
     color: var(--fc-primary);
     font-weight: 400;
     font-size: 1.6rem;
@@ -291,30 +291,30 @@ section .container-pets .texts-pets p {
     width: 100%;
 }
 
-section .swiper {
+section#pets .swiper {
     overflow: initial;
 }
 
-section .container-pets > .link {
+section#pets .container-pets > .link {
     border-radius: 0.8rem;
     margin-bottom: 3rem;
 }
 
-.swiper-wrapper {
+section#pets .swiper-wrapper {
     gap: 1rem;
     margin-top: 3rem;
 }
 
-.swiper-slide {
+section#pets .swiper-slide {
     border-radius: 2rem;
     height: max-content;
 }
 
-.swiper-slide > img {
+section#pets .swiper-slide > img {
     width: 100%;
 }
 
-.swiper-slide > h1 {
+section#pets .swiper-slide > h1 {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 120%;
@@ -329,7 +329,158 @@ section .container-pets > .link {
     bottom: -5rem;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+section#pets .swiper-button-prev,
+section#pets .swiper-button-next,
+section#pets .swiper-horizontal>.swiper-pagination-bullets,
+section#pets .swiper-pagination-bullets.swiper-pagination-horizontal,
+section#pets .swiper-pagination-custom,
+section#pets .swiper-pagination-fraction {
     display: none;
+}
+
+/* *************** SECTION TEAM *************** */
+
+section#team {
+    padding: 3rem 2rem;
+    background-color: var(--fc-primary);
+}
+
+section#team > .texts-team {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 6rem;
+    color: var(--fc-secondary);
+}
+
+section#team > .texts-team > h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+}
+
+section#team > .texts-team > p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+}
+
+section#team .swiper-slide {
+    border: 1px solid hsla(358, 85%, 63%, 0.3);
+    background-color: hsla(356, 81%, 96%, 1);
+    padding: 1rem 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    line-height: 120%;
+    text-align: center;
+    color: var(--fc-secondary);
+}
+
+section#team .swiper-slide img {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+section#team .swiper-slide h1 {
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+section#team .swiper-slide p {
+    font-weight: 400;
+}
+
+/* *************** SECTION CONTACT *************** */
+
+section#contact {
+    background-color: var(--fc-primary);
+    padding: 2rem 2rem 3rem;
+}
+
+section#contact .container-illustration {
+    position: relative;
+}
+
+section#contact > .container-illustration :nth-child(1) > img {
+    position: absolute;
+    right: 0;
+    top: -1rem;
+    width: 60%;
+    z-index: 1;
+}
+
+section#contact .container-contact {
+    background-color: var(--fc-secondary);
+    border-radius: 2rem;
+    height: 29.7rem;
+
+    display: flex;
+    align-items: center;
+    padding: 0 3.2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+section#contact .container-contact > .link-contact {
+    display: grid;
+    gap: 2rem;
+}
+
+section#contact .container-contact > .link-contact > h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--fc-primary);
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    width: 15rem;
+}
+
+section#contact .container-contact > .link-contact > h1 > span {
+    width: 15rem;
+    display: inline-block;
+}
+
+section#contact .container-contact > .link-contact > a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: var(--fc-title-section-pets);
+
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+section#contact .container-contact > :nth-child(2) > img {
+    position: absolute;
+    left: 0;
+    top: -9rem;
+    width: 22rem;
+}
+
+/* *************** FOOTER *************** */
+footer#footer {
+    padding: 4rem 5rem 5rem;
+    display: grid;
+    gap: 4.8rem;
+
+    text-align: center;
+}
+
+footer > .logotipo :nth-child(1) > img{
+    display: none;
+}
+
+footer > p {
+    color: var(--fc-primary);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+}
+
+footer > p > span {
+    padding: 0 1rem;
 }

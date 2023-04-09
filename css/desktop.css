@@ -285,43 +285,43 @@
         padding: 2rem 10rem 5rem;
     }
 
-    section .container-pets {
+    section#pets .container-pets {
         padding: 10rem 5.5rem 6rem;
         min-height: 62.8rem;
     }
 
-    section .container-pets .texts-pets {
+    section#pets .container-pets .texts-pets {
         display: flex;
         align-items: center;
         margin-bottom: 5rem;
     }
 
-    section .container-pets .texts-pets h1 {
+    section#pets .container-pets .texts-pets h1 {
         font-weight: 700;
         font-size: 4.8rem;
         line-height: 90%;
     }
 
-    section .container-pets .texts-pets p {
+    section#pets .container-pets .texts-pets p {
         font-size: 2rem;
     }
 
-    section .container {
+    section#pets .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
-    section .container .link {
+    section#pets .container .link {
         width: 20rem;
     }
 
-    section .container .swiper {
+    section#pets .container .swiper {
         overflow: hidden;
         margin: 0;
     }
 
-    section .container .swiper .swiper-wrapper {
+    section#pets .container .swiper .swiper-wrapper {
         width: 38.4rem;
         height: 26.1rem;
         padding: 0 10.5rem 2.5rem;
@@ -329,13 +329,13 @@
         gap: 0;
     }
 
-    .swiper-slide > img,
-    .swiper-slide > h1 {
+    section#pets .swiper-slide > img,
+    section#pets .swiper-slide > h1 {
         width: 34rem;
     }
 
-    .swiper-button-prev,
-    .swiper-button-next {
+    section#pets .swiper-button-prev,
+    section#pets .swiper-button-next {
         display: flex;
         width: 7.2rem;
         height: 7.2rem;
@@ -345,24 +345,25 @@
         background-color: var(--fc-primary);
     }
     
-    .swiper-button-prev::after,
-    .swiper-button-next::after {
+    section#pets .swiper-button-prev::after,
+    section#pets .swiper-button-next::after {
         font-size: 2.4rem;
     }
     
-    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    section#pets .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
         color: var(--fc-primary);
         background-color: transparent;
     }
 
-    .swiper-horizontal>.swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .swiper-pagination-custom,
-    .swiper-pagination-fraction {
+    section#pets .swiper-horizontal>.swiper-pagination-bullets,
+    section#pets .swiper-pagination-bullets.swiper-pagination-horizontal,
+    section#pets .swiper-pagination-custom,
+    section#pets .swiper-pagination-fraction {
         bottom: 0.5rem;
+        display: block;
     }
 
-    .swiper-pagination-bullet-active {
+    section#pets .swiper-pagination-bullet-active {
         background-color: var(--fc-primary);
     }
 }
@@ -454,16 +455,16 @@
         height: 78rem;
     }
 /* *************** SECTON PETS *************** */
-    section .container-pets {
+    section#pets .container-pets {
         padding: 10rem 10.5rem 6rem;
     }
     
-    section .container .link {
+    section#pets .container .link {
         width: 23rem;
     }
 
-    .swiper-slide > img,
-    .swiper-slide > h1 {
+    section#pets .swiper-slide > img,
+    section#pets .swiper-slide > h1 {
         width: 38rem;
     }
 
