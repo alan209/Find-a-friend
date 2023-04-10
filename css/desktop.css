@@ -366,6 +366,67 @@
     section#pets .swiper-pagination-bullet-active {
         background-color: var(--fc-primary);
     }
+
+/* *************** SECTION TEAM *************** */
+    section#team {
+        padding: 5rem 10rem 5rem
+    }
+
+    section#team > .texts-team {
+        display: flex;
+        align-items: center;
+    }
+
+    section#team > .texts-team > h1 {
+        font-size: 4.8rem;
+        line-height: 90%;
+        max-width: 30rem;
+    }
+
+    section#team > .texts-team > p {
+        max-width: 69rem;
+    }
+
+/* *************** SECTION CONTACT *************** */
+    section#contact {
+        padding: 7rem 10rem 9rem;
+    }
+
+    section#contact .container-contact > .link-contact > h1 {
+        font-size: 4.8rem;
+        line-height: 90%;
+        width: 41.6rem;
+    }
+
+    section#contact .container-contact > .link-contact > h1 > span {
+        width: 41.6rem;
+    }
+
+    section#contact .container-contact > .link-contact > a {
+        font-size: 2rem;
+        gap: 1.2rem;
+    }
+
+    section#contact .container-contact > .link-contact > a > img {
+        width: 3.3rem;
+    }
+
+/* *************** FOOTER *************** */
+    footer#footer {
+        padding: 2.8rem 10rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer > .logotipo :nth-child(1) > img {
+        display: block;
+    }
+
+    footer > .logotipo :nth-child(2) > img {
+        display: none;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -468,4 +529,21 @@
         width: 38rem;
     }
 
+/* *************** SECTION TEAM *************** */
+    section#team {
+        padding: 7rem 10rem 7rem
+    }
+
+/* *************** SECTION TEAM *************** */
+    section#contact {
+        padding: 7rem 10rem 17rem;
+    }
+
+    section#contact > .container-illustration :nth-child(1) > img {
+        top: -6rem;
+    }
+
+    section#contact .container-contact {
+        height: 34rem;
+    }
 }
