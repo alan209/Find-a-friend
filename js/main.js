@@ -10,3 +10,11 @@ function clickMenu() {
     menuClosedMobile.classList.toggle('element-hidden');
     divider.classList.toggle('element-hidden');
 }
+
+// Botão de voltar ao Topo
+
+const btnTopo = document.querySelector('#btn-topo');
+
+btnTopo.addEventListener('click', function() {
+window.scrollTo({top: 0, behavior: 'smooth'});
+});

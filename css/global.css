@@ -38,3 +38,24 @@ span {
 .element-hidden {
     display: none;
 }
+
+#btn-topo {
+    position: fixed;
+    z-index: 10;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid hsla(358, 85%, 63%, 0.3);
+    background-color: hsla(356, 81%, 96%, 1);
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#btn-topo i {
+    color: var(--bg-primary);
+    font-size: 1.6rem;
+}
