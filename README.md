@@ -1,10 +1,10 @@
-<h1 align="center"> 🐶 FindAFriend 🐱 </h1>
+<img alt="Capa Do Projeto FindAFriend" src="assets/images/Capa.png">
 
 ## 📝 Descrição
 
 O FindAFriend é o primeiro projeto do Green Chain Challenge com desafios que simulam situações reais, onde a equipe de desenvolvimento é responsável por aprimorar o produto FindAFriend, desenvolvido pela startup de mesmo nome. Trata-se de uma aplicação que ajuda as ONGs a conectar animais de estimação resgatados com pessoas interessadas em adotá-los.
 
-<img alt="Capa Do Projeto FindAFriend" src="assets/images/Capa.png">
+<img allt="Layout da aplicação Finalizada." src="assets/images/Layout.png">
 
 ## 📅 Prazos
 
