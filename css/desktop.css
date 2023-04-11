@@ -411,6 +411,13 @@
         width: 3.3rem;
     }
 
+    section#contact .container-contact > .illustration2 > img {
+        position: absolute;
+        left: 5rem;
+        top: -18rem;
+        width: 60%;
+    }
+
 /* *************** FOOTER *************** */
     footer#footer {
         padding: 2.8rem 10rem;
@@ -534,13 +541,24 @@
         padding: 7rem 10rem 7rem
     }
 
+    section#team .swiper-slide {
+        max-width: 27.8rem;
+    }
+
 /* *************** SECTION TEAM *************** */
     section#contact {
         padding: 7rem 10rem 17rem;
     }
 
-    section#contact > .container-illustration :nth-child(1) > img {
+    section#contact > .container-illustration .illustration1 > img {
         top: -6rem;
+    }
+
+    section#contact .container-contact > .illustration2 > img {
+        position: absolute;
+        left: 8rem;
+        top: -30rem;
+        width: 60%;
     }
 
     section#contact .container-contact {

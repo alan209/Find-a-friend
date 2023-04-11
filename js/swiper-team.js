@@ -24,6 +24,7 @@ const swiperTeam = new Swiper('.swiper-team', {
             spaceBetween: 10,
         },
         1200: {
+            slidesPerView: '4',
             spaceBetween: 32,
         }
     }

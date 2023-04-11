@@ -375,6 +375,7 @@ section#team .swiper-slide {
     line-height: 120%;
     text-align: center;
     color: var(--fc-secondary);
+    max-width: 48rem;
 }
 
 section#team .swiper-slide img {
@@ -402,7 +403,7 @@ section#contact .container-illustration {
     position: relative;
 }
 
-section#contact > .container-illustration :nth-child(1) > img {
+section#contact > .container-illustration .illustration1 > img {
     position: absolute;
     right: 0;
     top: -1rem;
@@ -425,6 +426,7 @@ section#contact .container-contact {
 section#contact .container-contact > .link-contact {
     display: grid;
     gap: 2rem;
+    position: absolute;
 }
 
 section#contact .container-contact > .link-contact > h1 {
@@ -453,7 +455,7 @@ section#contact .container-contact > .link-contact > a {
     align-items: center;
 }
 
-section#contact .container-contact > :nth-child(2) > img {
+section#contact .container-contact > .illustration2 > img {
     position: absolute;
     left: 0;
     top: -9rem;
